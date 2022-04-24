@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) { 
+    class*{
+    width: 100%; 
+    } 
+  } 
+  
+   
+  @media only screen and (max-width: 992px) {}
+  
+  @media only screen and (max-width: 1200px) {}
+   
+  @media only screen and (max-width: 1920px) {}
+  
+  header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(252, 252, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+  
+  }
+  a:link {
+    color: rgb(252, 253, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  body {
+    background-image: url("../website-background.jpg");
+  }
+  
+  #footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right ;
+  }
+  
+  
+  .facebook{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .facebook:hover{
+  opacity: 0.7;
+  }
+  .facebook{
+  color: white;
+  }
+  .instagram{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .instagram:hover{
+  opacity: 0.7;
+  }
+  .instagram{
+  color: white;
+  }
+  .copyright{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  
+  
+  }
+  .copyright:hover{
+  opacity: 0.7;
+  }
+  .copyright{
+  color: white;
+  }
