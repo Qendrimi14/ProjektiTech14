@@ -1,0 +1,164 @@
+@media only screen and (max-width: 768px) { 
+  class*{
+  width: 100%; 
+  } 
+} 
+
+@media only screen and (max-width: 768px) {}  
+ 
+@media only screen and (max-width: 992px) {}  
+
+@media only screen and (max-width: 1200px) {} 
+ 
+@media only screen and (max-width: 1920px) {} 
+
+
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(252, 252, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+  
+  }
+  a:link {
+    color: rgb(252, 253, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+
+body {
+    background-image: url("../website-background.jpg");
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+
+    float:left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display:block;
+    }
+  }
+
+
+  #footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right ;
+  }
+  
+  
+  .facebook{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .facebook:hover{
+  opacity: 0.7;
+  }
+  .facebook{
+  color: white;
+  }
+  .instagram{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .instagram:hover{
+  opacity: 0.7;
+  }
+  .instagram{
+  color: white;
+  }
+  .copyright{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  
+  
+  }
+  .copyright:hover{
+  opacity: 0.7;
+  }
+  .copyright{
+  color: white;
+  }
