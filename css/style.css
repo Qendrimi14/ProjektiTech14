@@ -1,0 +1,202 @@
+@media only screen and (max-width: 768px) { 
+  class*{
+  width: 100%; 
+  } 
+} 
+
+@media only screen and (max-width: 768px) {}
+ 
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 1200px) {}
+ 
+@media only screen and (max-width: 1920px) {}
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(252, 252, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+  
+  }
+  a:link {
+    color: rgb(252, 253, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  body {
+    background-image: url("../website-background.jpg");
+  }
+  
+  
+  * {box-sizing:border-box}
+  
+  .slideshow-container {
+    margin-top: 20%;
+    max-width: 350px;
+    max-height: 350px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  p {
+    margin-left: 30%;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    padding-right: 20%;
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: -80px;
+    padding: 16px;
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f2f2f2;
+    font-size: 24px;
+    text-shadow: 3px 3px 7px  black;
+    padding: 8px 12px;
+    position: absolute;
+    width: 700px;
+    text-align: start;
+    margin-left: 400px;
+    margin-top: -100%;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: -35px;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  #footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right ;
+  }
+  
+  
+  .facebook{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .facebook:hover{
+  opacity: 0.7;
+  }
+  .facebook{
+  color: white;
+  }
+  .instagram{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  }
+  .instagram:hover{
+  opacity: 0.7;
+  }
+  .instagram{
+  color: white;
+  }
+  .copyright{
+  margin: 20px;
+  width: 30px;
+  text-decoration: none;
+  
+  
+  }
+  .copyright:hover{
+  opacity: 0.7;
+  }
+  .copyright{
+  color: white;
+  }
