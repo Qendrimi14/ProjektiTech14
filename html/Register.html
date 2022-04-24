@@ -1,0 +1,57 @@
+<html>
+    <head>
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+
+
+
+    </head>
+    <body>
+      <header>
+        <h1><a href="Home.html">14 TECH     <img src="logo14.png"></a></h1>
+    
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href = "AboutUs.html">About Us</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><a href="Login.html">Log In</a></li>
+            <li><a href="Register.html">Register</a></li>
+        </ul>
+    </header>
+        <div class="overlay">
+            <div class="overlay-background"></div>
+            <div class="overlay-content">
+              <h1 class="main-heading">Register</h1>
+              <form class="signup-form">
+                <label>Name</label>
+                <input id="name" placeholder="Name" type="text" />
+                <label>Surname</label>
+                <input id="surname" class="surname" placeholder="Surname" type="text" />
+                <label>Username</label>
+                <input id="username" class="username" placeholder="Username" type="text" />
+                <label >Email Address</label>
+                <input id="email" class="email" placeholder="Email" type="email" />
+                <label>Password</label>
+                <input id="password" class="password" placeholder="Password" type="password" />
+                <input class="btn btn-outline submit-btn"
+                            onclick="validate()" value="Sign up">
+              </form>
+            </div>
+          </div>
+          <center> 
+            <div id="footer">
+            <img src="facebook.png" class="facebook">
+            <img src="instagram.png" class="instagram">
+            <img src="copyright.png" class="copyright">
+            </div>
+         </center>
+      
+          <script src="RegisterJS.js"></script>
+        </body>
+</html>
